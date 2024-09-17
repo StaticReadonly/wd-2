@@ -31,7 +31,7 @@ nav {
     padding: 0 20px;
 }
 
-nav > a {
+nav>a {
     display: flex;
     width: 140px;
     align-items: center;
@@ -45,11 +45,11 @@ nav > a {
     text-align: center;
 }
 
-.main-hght{
+.main-hght {
     height: 500px;
 }
 
-.main-mrgn{
+.main-mrgn {
     margin: 10px;
 }
 
@@ -64,7 +64,7 @@ aside {
     gap: 10px;
 }
 
-aside > a {
+aside>a {
     display: flex;
     text-decoration: none;
     color: black;
@@ -74,8 +74,8 @@ aside > a {
     cursor: pointer;
 }
 
-aside > a:hover {
-    color: lime;
+aside>a:hover {
+    color: rgb(0, 64, 255);
 }
 
 main {
@@ -86,7 +86,7 @@ main {
     gap: 5%;
 }
 
-main > div {
+main>div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -95,7 +95,7 @@ main > div {
     justify-content: space-around;
 }
 
-main > div > div {
+main>div>div {
     display: flex;
     height: 75%;
     aspect-ratio: 1/1;
@@ -108,7 +108,7 @@ main > div > div {
     transition: ease-in-out 150ms all;
 }
 
-main > div > div:hover {
+main>div>div:hover {
     transform: scale(1.33);
 }
 
@@ -116,29 +116,29 @@ footer {
     display: flex;
     border: black solid 1px;
     align-items: center;
-    background-color: rgb(6, 6, 155);
+    background-color: rgb(34, 57, 106);
     height: 200px;
     padding: 20px;
 }
 
-footer > div {
+footer>div {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
-footer > div > div {
+footer>div>div {
     display: flex;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
 }
 
-footer > div > ul {
+footer>div>ul {
     list-style: none;
 }
 
-footer > div > ul > li {
+footer>div>ul>li {
     color: white;
     margin: 0 0 5px 0;
     cursor: pointer;
